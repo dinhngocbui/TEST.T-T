@@ -1,0 +1,27 @@
+package study;
+
+/**
+ *
+ * @author CharlesJahn
+ */
+public class PrintlnTest {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       String frase = ("Hello cruel world");
+       String dividido[] = frase.split(" ");
+       String firstName[] = frase.split(dividido[0]);
+       
+       StringBuilder surName = new StringBuilder();
+       for (String current : firstName){
+           surName.append(current).append("");
+       }
+        System.out.println(surName);
+       
+        System.out.println(frase);
+        System.out.println(dividido[0]);
+    }
+    
+}
