@@ -12,20 +12,12 @@ public class PrintlnTest {
      */
     public static void main(String[] args) {
       
-      Scanner myKB = new Scanner(System.in);
-        String pword;
-       
-        System.out.println("Please enter your password. ");
-        pword = myKB.nextLine();
-            
-       
-        if ( pword.equals("Password")){
-            
-            System.out.println("Access Granted");
-        }
-        else {
-            
-            System.out.println("You are now locked out of your account. The police are on the way");
+    int first = 10;
+    int second = 10;
+    int sum = first + second;
+    
+    System.out.println("Variable 1="+first+" Variable 2="+second);
+    System.out.println("The sum of the Variable 1 and Variable 2 is "+ sum);
         }
     }
     
