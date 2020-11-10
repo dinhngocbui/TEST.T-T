@@ -11,18 +11,22 @@ public class PrintlnTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String frase = ("Hello world");
-       String dividido[] = frase.split(" ");
-       String firstName[] = frase.split(dividido[0]);
+      
+      Scanner myKB = new Scanner(System.in);
+        String pword;
        
-       StringBuilder surName = new StringBuilder();
-       for (String current : firstName){
-           surName.append(current).append("");
-       }
-        System.out.println(surName);
+        System.out.println("Please enter your password. ");
+        pword = myKB.nextLine();
+            
        
-        System.out.println(frase);
-        System.out.println(dividido[0]);
+        if ( pword.equals("Password")){
+            
+            System.out.println("Access Granted");
+        }
+        else {
+            
+            System.out.println("You are now locked out of your account. The police are on the way");
+        }
     }
     
 }
