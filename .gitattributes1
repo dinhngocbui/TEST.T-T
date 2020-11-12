@@ -1,0 +1,87 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+package study;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package multiplytwonumbers;
+
+/**
+ *
+ * @author dinhngocbui
+ */
+import java.util.Scanner;
+
+public class Multiplytwonumbers {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
+    {
+        Scanner sc = null;
+        sc =new Scanner(System.in);
+        System.out.println("enter the 1st no");
+        int no1=sc.nextInt();
+       System.out.println("enter the 2nd no");
+        int no2=sc.nextInt();
+        // logic
+        int sum= 0;
+        sum= no1*no2;
+        System.out.println("Result is ="+sum);
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @author CharlesJahn
+ */
+public class PrintlnTest {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+    int first = 10;
+    int second = 10;
+    int sum = first + second;
+
+    System.out.println("Variable 1="+first+" Variable 2="+second);
+    System.out.println("The sum of the Variable 1 and Variable 2 is "+ sum);
+        }
+    }
+
+}
